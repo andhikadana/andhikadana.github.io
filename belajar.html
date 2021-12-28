@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Belajar Javascript</title> 
+      <link rel="stylesheet" href="+.css">
+</head>
+<body>
+    <h1>Belajar Javascript</h1>
+<div align='center'>
+    <button class="btn" onclick="peringatan()"><h1>Rahasia Negara</h1></button>
+</div>
+    <div id='fungsi'></div>
+<div id='time'></div>
+</body>
+<script>
+function peringatan(){
+    var attn = '';
+    var n;
+    for(n = 0;n <=3;n++){
+       attn += '<h1><center>SIAPA ANDA!</center></h1>' + n + "<br/>";
+    }
+    document.getElementById('fungsi').innerHTML = attn;
+}
+
+</script>
+
+<script type="text/javascript" src="belajar.js"></script>
+</html>

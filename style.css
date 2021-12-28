@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.kotak{
+    border: 1;
+    border-color: black;
+}
+.btn{
+    color: crimson;
+}
+
+.btn:hover{
+    background-color: darkmagenta;
+    color: grey;
+
+}
